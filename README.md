@@ -2,7 +2,7 @@ __ShopScrape__
 
 ShopScrape is a web scraper that retrieves all the product URLs from a specified domain.
 
-This project has been created using Scrapy to leverage parallelism and asynchronous processing of URLs.
+This project has been created using [Scrapy](https://scrapy.org/) to leverage parallelism and asynchronous processing of URLs.
 
 __Dependencies__
 ```
@@ -42,7 +42,8 @@ Output sample:
 The project can also be deployed to a server that accepts REST API requests to schedule scraping jobs and a web interface to monitor the jobs.
 
 __Usage__
-Start a scrapyd instance using the following command (this will create a server listening on port 6800):
+
+Start a [scrapyd](https://scrapyd.readthedocs.io/en/latest/) instance using the following command (this will create a server listening on port 6800):
 ```
 $ scrapyd
 ```
